@@ -1,0 +1,10 @@
+# Large datasets
+GenAI/data/*.csv
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/

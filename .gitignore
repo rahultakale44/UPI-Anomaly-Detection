@@ -1,12 +1,10 @@
-venv/
-.venv/
+# Large datasets
+GenAI/data/*.csv
+
+# Python cache
 __pycache__/
-.pytest_cache/
-.env
-data/raw/*
-!data/raw/.gitkeep
-artifacts/*
-!artifacts/.gitkeep
-reports/*
-!reports/.gitkeep
-.streamlit/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
